@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+#cover {
+  background: url(https://images.designtrends.com/wp-content/uploads/2015/11/30163055/Plain-Black-Wood-Background1.jpg) no-repeat center bottom;
+  top: -55px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.navigation {
+  /*background-image: url(https://cdn.pixabay.com/photo/2016/02/21/00/26/walnut-1213037__340.jpg);
+  background-blend-mode: darken;*/
+  text-align: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: auto;
+  z-index: 10000;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-family: 'Abel', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 300;
+  color: #c0c0c0;
+  margin: 25px 30px;
+}
+
+
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Raleway', serif;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: 50;
+}
+
+a {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+a:hover {
+  color: #2FB;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Amatic+SC', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #c0c0c0;
+  padding: 14px;
+  color: #FFF;
+  font-family: 'Amatic SC', serif;
+  font-size: 26px;
+  background-image: -webkit-linear-gradient(#FFF, #333);
+}
+
+.btn:hover {
+  color: #FFF;
+}
+
+.body_head {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Amatic SC', serif;
+  font-size: 18px;
+  margin-left: 6px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: 'Raleway', serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#body_header {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH4A5gMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIHA//EABoQAQEBAAMBAAAAAAAAAAAAAAABESExQQL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOLlJQpIFCpCCKQIqQgkVACaWAziaiBlNDAAasAMo1AzQ0KDKIBAigokgSiIJIwFCjARihBQqQgsUhwyAFjWHAYxN4MBnBW7BmgyGrBQZDVAMoigMFIoBJAEUAKQJrGY1AKihgGQ4IYBMgjUAyHFCCxEgFhQMYsaFgM2M2N1mwGaMarIANM0AKRQZRFBJIEkoCbZaAxeqIC1AQMagjUAwxQyAVhiBJERkNM0Vms1usgzWWqzQFZrQoM0GoBWaaKCSQJRKAZGmWgMMEMAtMwwGvlqdsxqA00zDAahBEOAwUADRRWay1WQZrNaoBkU0UAy0yCrNarNBJIEkgLTEbAmMmA0dZMBqNxiNA1GozDKDalZINDQhENWgVVmnWaAtZpooCipAyCAFopvABJIEgQTTLUAwhA1CyQajUYjUoNymV561sBtazpBrVWVoHRRqoJm1M0CyQABAAUjQZqSBJIAQoBIQNaWY0BLJAmUIG4mSDWqBAdQQHVaACVoAEIAggBZVAJJACED/9k=);
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  padding-top: 30px;
+  top: -45px;
+}
+
+p {
+  font-family: 'Raleway', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.fa-instagram {
+  background-color: #322f30;
+  -o-transition: 5s;
+  -moz-transition: 5s;
+  -ms-transition: 5s;
+  -webkit-transition: 5s;
+  transition: 5s;
+  padding: 10px 12px;
+}
+
+.social_icon {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul.social_icon {
+  align-items: center;
+  border-radius: 1px;
+}
+
+.social_icons li {
+  vertical-align:top;
+  display:inline;
+  height:100px;
+}
+
+.social_icons a {
+  text-decoration: none;
+  color: #FFF;
+}
